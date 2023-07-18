@@ -4,10 +4,10 @@
 
 export CUDA_DEVICE_MAX_CONNECTIONS=1
 
-CHECKPOINT_PATH=<Specify path>
-VOCAB_FILE=<Specify path to file>/gpt2-vocab.json
-MERGE_FILE=<Specify path to file>/gpt2-merges.txt
-DATA_PATH=<Specify path and file prefix>_text_document
+CHECKPOINT_PATH=test-gpt2
+VOCAB_FILE=dataset/gpt2-vocab.json
+MERGE_FILE=dataset/gpt2-merges.txt
+DATA_PATH=dataset/BookCorpusDataset_text_document
 
 GPT_ARGS="
     --num-layers 24 \
