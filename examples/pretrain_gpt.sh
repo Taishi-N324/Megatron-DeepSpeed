@@ -48,4 +48,5 @@ torchrun pretrain_gpt.py \
     $DATA_ARGS \
     $OUTPUT_ARGS \
     --save $CHECKPOINT_PATH \
-    --load $CHECKPOINT_PATH
+    --load $CHECKPOINT_PATH \
+    --wandb-name "test"
